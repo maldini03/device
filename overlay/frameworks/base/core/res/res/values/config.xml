@@ -492,4 +492,7 @@
     <string name="config_adaptiveChargingSuspendValue" translatable="false">1</string>
     <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
 
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">14dp</dimen>
+
 </resources>
