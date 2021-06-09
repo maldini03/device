@@ -152,6 +152,9 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     Snap
 
+# Carrier Config
+PRODUCT_PACKAGE_OVERLAYS += vendor/extras/overlay/CarrierConfig
+
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     cneapiclient \
