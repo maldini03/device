@@ -153,7 +153,7 @@ PRODUCT_PACKAGES += \
     Snap
 
 # Carrier Config
-PRODUCT_PACKAGE_OVERLAYS += vendor/extras/overlay/CarrierConfig
+PRODUCT_PACKAGE_OVERLAYS += vendor/banana/overlay/CarrierConfig
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
