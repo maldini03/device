@@ -183,6 +183,13 @@ void vendor_check_variant()
     property_override_dual("ro.product.device", "ro.vendor.product.device", product_device);
     property_override_dual("ro.product.model", "ro.vendor.product.model", product_model);
     property_override_dual("ro.product.vendor.device", "ro.vendor.product.name", product_name);
+
+    // Safetynet Workaround
+    property_override("ro.boot.verifiedbootstate", "green");
+    property_override("ro.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+
 }
 
 void NFC_check()
